@@ -11,4 +11,4 @@ This is the repository for the final project for CS 3773.001 (Software Engineeri
 - develop mock-up designs for UI/UX
 
 ### Known Issues ###
-Currently no issues to report.
+- Currently no issues to report.
