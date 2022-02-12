@@ -1,0 +1,36 @@
+body{
+    background-color: skyblue;
+}
+h1{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+p2{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.phrase{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu {  
+    position: sticky;
+    top: 0;
+    background-color: #2f00ff;
+    padding:10px 0px 10px 0px;
+    color:white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.testing a{
+    right: auto;
+    float: right;    
+}
