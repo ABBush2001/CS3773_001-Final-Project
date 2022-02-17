@@ -4,16 +4,22 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="HomePage.css">
             <title>Art Central</title>
-            <div class="menu" >
-                <a href="https://www.geeksforgeeks.org">HOME</a>
-                <a href="#news">NEWS</a>
-                <a href="#notification">NOTIFICATIONS</a>
                 <div class="logIn">
                     <a href="LoggingInPage.html">
                         <img src="login.png" width="75" height="75" style="right:50px;"/>
                     </a>
                 </div>
                 
+
+            <!--This is the login Icon, has a hyperlink that takes the user to the login screen-->
+            <div class="testing">
+                <a href="LoggingInPage.html">
+                    <img src=
+                    "login.png" 
+                    style="position:fixed; right:100px; top:5px;border:none;"
+                    width="75" height="75"
+                    title="Login Icon" />
+                  </a>
             </div>
             
 
@@ -22,8 +28,18 @@
         <body>
             <br><br><br><br>
             <h1>Art Central</h1>
-            <header class="phrase">All your wants for art<br><br></header>
-            <p2>Welcome!</p2>
             
+            <!--subtext under the title-->
+            <header class="phrase"
+            style="position: fixed; left: 20px; top: 50px;">
+            All your wants for art
+            </header>
+            <!--<p2>Welcome!</p2> -->
+            <!--menu/bar with links to other pages: Home, News, and Notifications-->
+            <div class="menu">
+                <a href="https://www.geeksforgeeks.org">HOME</a>
+                <a href="#news">NEWS</a>
+                <a href="#notification">NOTIFICATIONS</a>
+            </div>
         </body>
     </html>
