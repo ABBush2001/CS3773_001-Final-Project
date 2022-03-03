@@ -25,7 +25,7 @@ class Item{
 	}
 
 	public function getPrice() {
-		return $this->price;
+		return $this->itemPrice;
 	}
 
 	public function getImg() {
