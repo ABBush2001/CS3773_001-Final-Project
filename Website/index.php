@@ -35,7 +35,7 @@ include_once 'loaditems.php'
                     <?php
                         $itemArray = loadItems();
                         foreach($itemArray as $item){
-                            echo '<td><a href= "itemPage.html"> <img src="' . $item->getImg() . '" width="auto, 50%" height="auto, 50%" style="display: flex; align-items: center; justify-content: center"></img></a>'. $item->getDescription() . '</td>';
+                            echo '<td><a href= "productPage.php?id='.$item->getID().'"> <img src="' . $item->getImg() . '" width="auto, 50%" height="auto, 50%" style="display: flex; align-items: center; justify-content: center"></img></a>'. $item->getDescription() . '</td>';
                         }
                     ?>
                 </tr>
