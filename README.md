@@ -8,7 +8,6 @@ This is the repository for the final project for CS 3773.001 (Software Engineeri
 - **Database Management/Development**: Kara Gustavus and Fernando Ramirez
 
 ### Current Tasks ###
-- Create the "Add to Cart" functionality
 - Create the Login/Register Screen
 - Create the Login/Register functionality
 - Create the Recover account screen
