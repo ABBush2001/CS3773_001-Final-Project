@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Shopping Cart</title>
+    <link href="shoppingCart.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
+</head>
+
+<div class="Header">
+    <h3 class="Heading">Shopping Cart</h3>
+</div>
+<div class="container">
+    <h5 class="Action">Remove all</h5>
+</div>
+    
+<hr>
+<div class="Cart-Items">
+        <div class="image-box">
+            <img src="starryNight.jpg" style={{ height="120px" }} />
+        </div>
+        <div class="about">
+            <h1 class="title">Starry Night</h1>
+            <h2 class="subtitle">By</h2>
+            <h3 class="description">Description</h3>
+        </div>
+        <div class="counter">
+            <div class="btn">-</div>
+            <div class="count">2</div>
+            <div class="btn">+</div>
+        </div>
+        <div class="prices">
+            <div class="amount">$2.99</div>
+            <div class="remove"><u>Remove</u></div>
+        </div>
+</div>
+<hr>
+<div class="checkout">
+    <div class="pricing">
+        <div>
+            <div class="Subtotal-title">Sub-Total</div>
+        </div>
+        <div class="Subtotal-amount">$6.18</div>
+    </div>
+    <div class="pricing">
+        <div>
+            <div class="Subtotal-title">Discount</div>
+        </div>
+        <div class="Subtotal-amount">$2.18</div>
+    </div>
+    <div class="pricing">
+        <input type="text" placeholder="Enter Discount Code" name="discount" id="discount">
+        <button type="submit" class="registerbtn">Apply</button>
+    </div>
+    <div class="pricing">
+        <div>
+            <div class="Subtotal-title">Tax</div>
+        </div>
+        <div class="Subtotal-amount">$2.18</div>
+    </div>
+
+</div>
+    <hr>
+    <div class="checkout">
+        <div class="pricing">
+            <div>
+                <div class="Total-title">Total</div>
+            </div>
+            <div class="Total-amount">$8.18</div>
+        </div>
+        <button class="button">Checkout</button>
+    </div>
