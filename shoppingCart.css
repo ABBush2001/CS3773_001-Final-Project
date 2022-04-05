@@ -1,0 +1,229 @@
+﻿
+.Header {
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading {
+    font-size: 40px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #2F3841;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: right;
+}
+
+.remove {
+    margin: auto;
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: right;
+}
+.discount {
+    margin: auto;
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: left;
+}
+
+.Action {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+}
+
+.Cart-Items {
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.about {
+    height: 100%;
+    width: 24%;
+}
+
+.title {
+    padding-top: 10px;
+    line-height: 10px;
+    font-size: 32px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #202020;
+}
+
+.subtitle {
+    line-height: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #909090;
+}
+
+.counter {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+}
+
+.count {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #202020;
+}
+
+.prices {
+    height: 100%;
+    text-align: right;
+}
+
+.amount {
+    padding-top: 20px;
+    font-size: 26px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #202020;
+}
+
+.save {
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #1687d9;
+    cursor: pointer;
+}
+
+.remove {
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+}
+
+hr {
+    width: 90%;
+    float: right;
+    margin-right: 5%;
+}
+
+.checkout {
+    float: right;
+    margin-right: 5%;
+    width: 28%;
+}
+
+.pricing {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.Subtotal-title {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #202020;
+}
+
+input[type=text], input[type=password] {
+    width: 60%;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.registerbtn {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: thin solid;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+.Total-title {
+    font-size: 36px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #202020;
+}
+
+.Subtotal-amount {
+    font-size: 22px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #202020;
+}
+
+.Total-amount {
+    font-size: 36px;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    color: #202020;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #202020;
+}
