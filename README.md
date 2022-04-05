@@ -8,10 +8,7 @@ This is the repository for the final project for CS 3773.001 (Software Engineeri
 - **Database Management/Development**: Kara Gustavus and Fernando Ramirez
 
 ### Current Tasks ###
-- Create the Login/Register Screen
-- Create the Login/Register functionality
-- Create the Recover account screen
-- Create the Recover account functionality
-
+- Finish the checkout screen and functionality
+- Create admin screens and functionality 
 ### Known Issues ###
 - Currently no issues to report.
