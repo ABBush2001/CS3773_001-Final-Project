@@ -9,6 +9,7 @@ This is the repository for the final project for CS 3773.001 (Software Engineeri
 
 ### Current Tasks ###
 - Finish the checkout screen and functionality
-- Create admin screens and functionality 
+- Finish admin screens and functionality
+- Finish Search bar and item filter functionality 
 ### Known Issues ###
 - Currently no issues to report.
