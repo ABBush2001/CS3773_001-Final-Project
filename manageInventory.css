@@ -1,4 +1,10 @@
-﻿.head {
+﻿
+body {
+    background-color: black;
+    color: white;
+}
+
+.head {
     overflow: hidden;
     background-color: lightskyblue;
     padding: 10px 5px;
@@ -67,5 +73,6 @@
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid white;
+    color: white;
 }
