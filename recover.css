@@ -1,5 +1,9 @@
-﻿form {
-    border: 3px solid #f1f1f1;
+﻿body{
+    background-color: black;
+}
+
+form {
+    border: 3px solid white;
 }
 
 input[type=text], input[type=password] {
@@ -49,6 +53,10 @@ img.avatar {
 /* Add padding to containers */
 .container {
     padding: 16px;
+}
+
+label{
+    color: white;
 }
 
 /* The "Forgot password" text */
