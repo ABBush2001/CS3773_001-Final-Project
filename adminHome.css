@@ -1,4 +1,16 @@
-﻿.head {
+﻿body {
+    background: black;
+}
+
+header {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+}
+
+.head {
     overflow: hidden;
     background-color: lightskyblue;
     padding: 10px 5px;
@@ -74,6 +86,7 @@
     height: 15%;
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 
 .return {
@@ -91,7 +104,7 @@
 }
 
 .button {
-    background-color: transparent;
+    background-color: white;
     border: solid;
     color: none;
     padding: 1px 1px;
