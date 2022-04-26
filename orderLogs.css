@@ -36,13 +36,12 @@
     }
 
 .table-filter {
-    float:left;
+    float:right;
     padding: 5px;
     margin-bottom: 10px;
     background-color: #DDE5B6;
     border: 3px solid #6C584C;
     color: #6C584C;
-    margin-right: 83.5%;
     margin-top:5px;
 }
 
@@ -143,7 +142,7 @@
 }
 
 .btn {
-    float: left;
+    float: right;
     box-shadow: inset 0px 1px 0px 0px;
     border: 3px solid #6C584C;
     display: inline-block;
