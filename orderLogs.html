@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Items Display</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="orderLogs.css" rel="stylesheet" />
+    <div class="head">
+        <div class="menu">
+            <a href="index.php" class="logo">ArtCentral</a>
+        </div>
+
+        <div class="header-right">
+            <button>Logout</button>
+        </div>
+    </div>
+</head>
+<body>
+    <div class="block">
+        <button type="submit" class="btn">Submit</button>
+        <form action="/searchPage.php">
+            <select class="table-filter" name="filters" id="filters">
+                No filter selected
+                Sort by price (low to high)
+                <option value="highLow">Sort by price (high to low)</option>
+                <option value="lowAvail">Sort by availability (low to high)</option>
+                <option value="highAvail">Sort by availability (high to low)</option>
+                <optgroup label="Artists">
+                    <option value="Vincent Van Gogh">Vincent Van Gogh</option>
+                    <option value="Claude Monet">Claude Monet</option>
+                    <option value="Salvador Dalí">Salvador Dalí</option>
+                    <option value="Dali">Dali</option>
+                    <option value="Ivan Seal">Ivan Seal</option>
+                    <option value="Wilson Tran">Wilson Tran</option>
+                    <option value="Edvard Munch">Edvard Munch</option>
+                </optgroup>
+            </select>
+        </form>
+        <br><br>
+        <br><br>
+    </div>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Customer Name</th>
+            <th>Total Price</th>
+            <th>Status</th>
+            <th>Order Number</th>
+        </tr>
+        <tr>
+            <td>01/22</td>
+            <td>John Doe</td>
+            <td>$12000.00</td>
+            <td>1</td>
+            <td>0000000001</td>
+        </tr>
+        <tr>
+            <td>02/22</td>
+            <td>Jane Doe</td>
+            <td>$24000.00</td>
+            <td>0</td>
+            <td>0000000002</td>
+        </tr>
+    </table>
+</body>

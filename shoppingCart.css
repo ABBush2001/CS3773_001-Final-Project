@@ -1,5 +1,9 @@
-﻿body{
-    background-color: black;
+﻿* {
+    font-family: Arial;
+}
+
+body {
+    background-color: beige;
 }
 
 .Header {
@@ -13,9 +17,8 @@
 
 .Heading {
     font-size: 40px;
-    font-family: 'Open Sans';
     font-weight: 700;
-    color: white;
+    color: #6C584C;
 }
 
 .container {
@@ -43,11 +46,9 @@
 
 .Action {
     font-size: 14px;
-    font-family: 'Open Sans';
     font-weight: 600;
-    color: #E44C4C;
+    color: forestgreen;
     cursor: pointer;
-    border-bottom: 1px solid #E44C4C;
 }
 
 .Cart-Items {
@@ -69,21 +70,19 @@
     padding-top: 10px;
     line-height: 10px;
     font-size: 32px;
-    font-family: 'Open Sans';
     font-weight: 800;
-    color: white;
+    color: #6C584C;
 }
 
 .subtitle {
     line-height: 10px;
     font-size: 18px;
-    font-family: 'Open Sans';
     font-weight: 600;
-    color: white;
+    color: #6C584C;
 }
 
-.description{
-    color: white;
+.description {
+    color: #6C584C;
 }
 .counter {
     width: 15%;
@@ -93,55 +92,69 @@
 }
 
 .btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-family: 'Open Sans';
-    font-weight: 900;
-    color: black;
+    width: 90%;
+    float: right;
+    box-shadow: inset 0px 1px 0px 0px;
+    border: 3px solid #6C584C;
+    display: inline-block;
     cursor: pointer;
+    color: #6C584C;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px;
+    background-color: #DDE5B6;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content:center;
+    font-weight:bold;
 }
 
+    .btn:hover {
+        background-color: #ADC178;
+        color: #6C584C;
+        opacity: 1;
+    }
+
+    .btn:active {
+        position: relative;
+        top: 1px;
+    }
+
 .count {
-    font-size: 20px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: white;
+    justify-content:center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #6C584C;
 }
 
 .prices {
     height: 100%;
     text-align: right;
+    color: #6C584C;
 }
 
 .amount {
     padding-top: 20px;
     font-size: 26px;
-    font-family: 'Open Sans';
     font-weight: 800;
-    color: white;
+    color: #6C584C;
 }
 
 .save {
     padding-top: 5px;
     font-size: 14px;
-    font-family: 'Open Sans';
     font-weight: 600;
-    color: #1687d9;
+    color: #6C584C;
     cursor: pointer;
 }
 
 .remove {
     padding-top: 5px;
     font-size: 14px;
-    font-family: 'Open Sans';
     font-weight: 600;
-    color: #E44C4C;
+    color: forestgreen;
     cursor: pointer;
 }
 
@@ -149,6 +162,8 @@ hr {
     width: 90%;
     float: right;
     margin-right: 5%;
+    border: 1px solid #6C584C;
+    margin-bottom: 25px;
 }
 
 .checkout {
@@ -163,13 +178,13 @@ hr {
     justify-content: space-between;
     padding-bottom: 1px;
     padding-top: 1px;
+    color: #6C584C;
 }
 
 .Subtotal-title {
     font-size: 20px;
-    font-family: 'Open Sans';
     font-weight: 500;
-    color: white;
+    color: #6C584C;
 }
 
 input[type=text], input[type=password] {
@@ -186,50 +201,57 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 .registerbtn {
-    background-color: white;
-    color: black;
+    background-color: #DDE5B6;
+    border: 3px solid #6C584C;
+    color: #6C584C;
     padding: 15px;
-    border: thin solid;
     cursor: pointer;
     width: 30%;
-    opacity: 0.9;
 }
 
 .registerbtn:hover {
+    background-color: #ADC178;
+    color: #6C584C;
     opacity: 1;
 }
 
+    .registerbtn:active {
+        position: relative;
+        top: 1px;
+    }
+
 .Total-title {
     font-size: 36px;
-    font-family: 'Open Sans';
     font-weight: 700;
-    color: white;
+    color: #6C584C;
 }
 
 .Subtotal-amount {
     font-size: 22px;
-    font-family: 'Open Sans';
     font-weight: 500;
-    color: white;
+    color: #6C584C;
 }
 
 .Total-amount {
     font-size: 36px;
-    font-family: 'Open Sans';
     font-weight: 900;
-    color: white;
+    color: #6C584C;
 }
 
 .button {
     margin-top: 10px;
     width: 100%;
     height: 40px;
-    border: none;
-    background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
-    border-radius: 20px;
+    border: 3px solid #6C584C;
+    background-color: #DDE5B6;
     cursor: pointer;
     font-size: 16px;
-    font-family: 'Open Sans';
     font-weight: 600;
-    color: #202020;
+    color: #6C584C;
 }
+
+    .button:hover {
+        background-color: #ADC178;
+        color: #6C584C;
+        opacity: 1;
+    }
