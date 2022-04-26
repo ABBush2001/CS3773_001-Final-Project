@@ -1,9 +1,11 @@
 ﻿* {
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: Arial;
 }
 
-body{
-    background-color: black;
+body {
+    background-color: beige;
+    border: 5px solid #6C584C;
 }
 
 /* Add padding to containers */
@@ -17,49 +19,51 @@ input[type=text], input[type=password] {
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
-    border: none;
-    background: #f1f1f1;
+    border: 3px solid #6C584C;
+    background-color: #DDE5B6;
 }
 
     input[type=text]:focus, input[type=password]:focus {
-        background-color: #ddd;
+        background-color: #DDE5B6;
         outline: none;
     }
 
 /* Overwrite default styles of hr */
 hr {
-    border: 1px solid white;
+    border: 1px solid #6C584C;
     margin-bottom: 25px;
 }
 
 label {
-    color: white;
+    color: #6C584C;
 }
 
 /* Set a style for the submit/register button */
 .registerbtn {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #DDE5B6;
+    color: #6C584C;
     padding: 16px 20px;
     margin: 8px 0;
-    border: none;
+    border: 3px solid #6C584C;
     cursor: pointer;
     width: 100%;
-    opacity: 0.9;
+    font-weight: bold;
+    font-size: 15px;
 }
 
     .registerbtn:hover {
-        opacity: 1;
+        opacity: 0.8;
     }
 
 /* Add a blue text color to links */
 a {
-    color: dodgerblue;
+    color: #CDB4DB;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
-    background-color: black;
+    background-color: beige;
     text-align: center;
-    color: white;
+    font-weight:bold;
+    color: #6C584C;
 }

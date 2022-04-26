@@ -1,13 +1,16 @@
-﻿
-body{
-    background-color: black;
-}
-form {
-    border: 3px solid white;
+﻿* {
+    font-family: Arial;
 }
 
-label{
-    color: white;
+body{
+    background-color: beige;
+}
+form {
+    border: 3px solid #6C584C;
+}
+
+label {
+    color: beige;
 }
 
 input[type=text], input[type=password] {
@@ -15,33 +18,29 @@ input[type=text], input[type=password] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid white;
+    border: 3px solid #6C584C;
     box-sizing: border-box;
-    color: purple;
+    color: #6C584C;
+    background-color: beige;
 }
 
 /* Set a style for all buttons */
 button {
-    background-color: skyblue;
-    color: white;
+    background-color: #DDE5B6;
+    color: #6C584C;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 3px solid #6C584C;
     cursor: pointer;
     width: 100%;
+    font-weight: bold;
+    font-size: 15px;
 }
 
     /* Add a hover effect for buttons */
     button:hover {
-        opacity: 0.8;
+        background-color: #ADC178;
     }
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
 
 /* Center the avatar image inside this container */
 .imgcontainer {
@@ -57,8 +56,17 @@ img.avatar {
 
 /* Add padding to containers */
 .container {
+    background-color: beige;
+    color: #6C584C;
     padding: 16px;
 }
+
+.block {
+    background-color: #6C584C;
+    color: beige;
+    padding: 16px;
+}
+
 /* The "Forgot password" text */
 span.psw {
     float: right;
@@ -77,9 +85,5 @@ span.psw {
         display: block;
         float: right;
         padding-block: auto;
-    }
-
-    .cancelbtn {
-        width: 100%;
     }
 }

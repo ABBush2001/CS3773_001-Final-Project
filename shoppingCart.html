@@ -1,19 +1,20 @@
 ﻿<!DOCTYPE html>
-<head>
-    <title>Shopping Cart</title>
-    <link href="shoppingCart.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
-</head>
 
-<div class="Header">
-    <h3 class="Heading">Shopping Cart</h3>
-</div>
-<div class="container">
-    <h5 class="Action">Remove all</h5>
-</div>
-    
-<hr>
-<div class="Cart-Items">
+<div class="border">
+    <head>
+        <title>Shopping Cart</title>
+        <link href="shoppingCart.css" rel="stylesheet" />
+    </head>
+
+    <div class="Header">
+        <h3 class="Heading">Shopping Cart</h3>
+    </div>
+    <div class="container">
+        <h5 class="Action">Remove all</h5>
+    </div>
+
+    <hr>
+    <div class="Cart-Items">
         <div class="image-box">
             <img src="starryNight.jpg" style={{ height="120px" }} />
         </div>
@@ -31,33 +32,33 @@
             <div class="amount">$2.99</div>
             <div class="remove"><u>Remove</u></div>
         </div>
-</div>
-<hr>
-<div class="checkout">
-    <div class="pricing">
-        <div>
-            <div class="Subtotal-title">Sub-Total</div>
+    </div>
+    <hr>
+    <div class="checkout">
+        <div class="pricing">
+            <div>
+                <div class="Subtotal-title">Sub-Total</div>
+            </div>
+            <div class="Subtotal-amount">$6.18</div>
         </div>
-        <div class="Subtotal-amount">$6.18</div>
-    </div>
-    <div class="pricing">
-        <div>
-            <div class="Subtotal-title">Discount</div>
+        <div class="pricing">
+            <div>
+                <div class="Subtotal-title">Discount</div>
+            </div>
+            <div class="Subtotal-amount">$2.18</div>
         </div>
-        <div class="Subtotal-amount">$2.18</div>
-    </div>
-    <div class="pricing">
-        <input type="text" placeholder="Enter Discount Code" name="discount" id="discount">
-        <button type="submit" class="registerbtn">Apply</button>
-    </div>
-    <div class="pricing">
-        <div>
-            <div class="Subtotal-title">Tax</div>
+        <div class="pricing">
+            <input style="background-color: #DDE5B6; color: #6C584C; border: 3px solid #6C584C; " type="text" placeholder="Enter Discount Code" name="discount" id="discount">
+            <button type="submit" class="registerbtn">Apply</button>
         </div>
-        <div class="Subtotal-amount">$2.18</div>
-    </div>
+        <div class="pricing">
+            <div>
+                <div class="Subtotal-title">Tax</div>
+            </div>
+            <div class="Subtotal-amount">$2.18</div>
+        </div>
 
-</div>
+    </div>
     <hr>
     <div class="checkout">
         <div class="pricing">
@@ -68,3 +69,4 @@
         </div>
         <button class="button">Checkout</button>
     </div>
+</div>
