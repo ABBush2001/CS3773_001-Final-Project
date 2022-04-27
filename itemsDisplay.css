@@ -43,7 +43,7 @@ nav {
     -ms-flex: 1;
     flex: 1;
     background-color: beige;
-    padding: 20px;
+    padding: 0px;
 }
 
     /* Style the list inside the menu */
@@ -82,6 +82,7 @@ footer {
     color: white;
 }
 
+
 .head {
     overflow: hidden;
     padding: 10px 5px;
@@ -92,13 +93,12 @@ footer {
 }
 
 .menu {
-    position: sticky;
     top: 0;
     padding: 20px 0px 10px 0px;
     color: white;
     overflow: hidden;
     top: 10px;
-    position: fixed;
+    position: absolute;
 }
 
     .menu a {
@@ -107,7 +107,7 @@ footer {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 10px;
+        margin-right: 100px;
     }
 
         .menu a:hover {
@@ -115,62 +115,47 @@ footer {
             color: black;
         }
 
-.filter input[type=text] {
-    width:100%;
-    padding: 5px;
-    float: right;
-    font-size: 15px;
-    border: 3px solid #6C584C;
-    background-color: #DDE5B6;
-}
-
-.filter .btn {
-    float: right;
-    box-shadow: inset 0px 1px 0px 0px;
-    border: 3px solid #6C584C;
-    display: inline-block;
-    cursor: pointer;
-    color: #6C584C;
-    font-family: Arial;
-    font-size: 15px;
-    padding: 5px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px;
-    background-color: #DDE5B6;
-    margin: 3px;
-}
-
-    .filter .btn:hover {
-        background-color: #ADC178;
-        color: #6C584C;
-        opacity: 1;
+    .menu input[type=text] {
+        padding: 5px;
+        border: none;
+        margin-top: 4px;
+        font-size: 20px;
     }
 
-.filter btn:active {
-    position: relative;
-    top: 1px;
-}
+    .menu .search-container button {
+        float: right;
+        padding: 10px;
+        margin-top: 8px;
+        background: #ddd;
+        font-size: 25px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .menu .search-container button:hover {
+            background: #ccc;
+        }
 
 .table-filter {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
     background-color: #DDE5B6;
     border: 3px solid #6C584C;
     color: #6C584C;
     float: right;
+    font-size:20px;
+    padding:5px;
 }
 
 .head input[type=text] {
     padding: 5px;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 20px;
     border: 3px solid #6C584C;
     background-color: #DDE5B6;
 }
 
 .head .search-container button:hover {
-    background: #DDE5B6;
+    background: pink;
+    font-size:25px;
     border: 3px solid #6C584C;
 }
 
@@ -207,12 +192,11 @@ footer {
     cursor: pointer;
     color: #6C584C;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 20px;
     padding: 5px;
     text-decoration: none;
     text-shadow: 0px 1px 0px;
     background-color: #DDE5B6;
-    margin: 3px;
 }
 
     .head button:hover {
