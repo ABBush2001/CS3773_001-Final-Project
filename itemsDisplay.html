@@ -7,43 +7,48 @@
     <link href="itemsDisplay.css" rel="stylesheet" />
     <div class="head">
         <div class="menu">
-            <a href= href="index.php" class="logo">ArtCentral</a>
+            <a href="index.php" class="logo"><img src="ArtCentral.png" style="width:200px; height:auto;"></a>
+            <form action="/searchPage.php">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><i class="fa fa-search">Submit</i></button>
+                <select class="table-filter" name="filters" id="filters">
+                    No filter selected
+                    Sort by price (low to high)
+                    <option value="highLow">Sort by price (high to low)</option>
+                    <option value="lowAvail">Sort by availability (low to high)</option>
+                    <option value="highAvail">Sort by availability (high to low)</option>
+                    <optgroup label="Artists">
+                        <option value="Vincent Van Gogh">Vincent Van Gogh</option>
+                        <option value="Claude Monet">Claude Monet</option>
+                        <option value="Salvador Dalí">Salvador Dalí</option>
+                        <option value="Dali">Dali</option>
+                        <option value="Ivan Seal">Ivan Seal</option>
+                        <option value="Wilson Tran">Wilson Tran</option>
+                        <option value="Edvard Munch">Edvard Munch</option>
+                    </optgroup>
+                </select>
+            </form>
         </div>
+
         <div class="header-right">
             <button>Cart</button>
             <button>Profile</button>
         </div>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br>
     </div>
 </head>
 <body>
     <div class="h">
         <h2>For All Your Art Needs!</h2>
+        <h2 style="font-size:25px;">See below for available pieces!</h2>
     </div>
 
     <section>
         <nav>
-            <div class="filter">
-                <form action="/searchPage.php">
-                    <select class="table-filter" name="filters" id="filters">
-                        No filter selected
-                        Sort by price (low to high)
-                        <option value="highLow">Sort by price (high to low)</option>
-                        <option value="lowAvail">Sort by availability (low to high)</option>
-                        <option value="highAvail">Sort by availability (high to low)</option>
-                        <optgroup label="Artists">
-                            <option value="Vincent Van Gogh">Vincent Van Gogh</option>
-                            <option value="Claude Monet">Claude Monet</option>
-                            <option value="Salvador Dalí">Salvador Dalí</option>
-                            <option value="Dali">Dali</option>
-                            <option value="Ivan Seal">Ivan Seal</option>
-                            <option value="Wilson Tran">Wilson Tran</option>
-                            <option value="Edvard Munch">Edvard Munch</option>
-                        </optgroup>
-                    </select>
-                    <input type="text" placeholder="Search..." name="search">
-                    <button type="submit" class="btn">Submit</button>
-                </form>
-            </div>
+            
         </nav>
 
         <article>
