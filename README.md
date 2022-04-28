@@ -11,4 +11,4 @@ This is the repository for the final project for CS 3773.001 (Software Engineeri
 - All tasks have been completed!
 
 ### A Note On This Repository ###
-Over the coourse of this project, development was typically done directly on the server, with the Github largely used for collecting files for public viewing afterwards. This approach was taken because our team was quite small, and most work was done collaboratively. While the Final branch contains the final version of the project files, the history of file changes can be found on the Main branch.
+Over the course of this project, development was typically done directly on the server, with the Github largely used for collecting files for public viewing afterwards. This approach was taken because our team was quite small, and most work was done collaboratively. While the Final branch contains the final version of the project files, the history of file changes can be found on the Main branch.
