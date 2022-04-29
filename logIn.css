@@ -1,0 +1,91 @@
+﻿﻿* {
+    font-family: Arial;
+}
+
+body{
+    background-color: beige;
+}
+form {
+    border: 3px solid #6C584C;
+}
+
+label {
+    color: beige;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #6C584C;
+    box-sizing: border-box;
+    color: #6C584C;
+    background-color: beige;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #DDE5B6;
+    color: #6C584C;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 3px solid #6C584C;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+    /* Add a hover effect for buttons */
+    button:hover {
+        background-color: #ADC178;
+    }
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 20%;
+    border-radius: 25%;
+}
+
+/* Add padding to containers */
+.container {
+    background-color: beige;
+    color: #6C584C;
+    padding: 16px;
+}
+
+.block {
+    background-color: #6C584C;
+    color: beige;
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: right;
+        padding-block:auto;
+        margin-top: 20px;
+
+    }
+
+    span.register {
+        display: block;
+        float: right;
+        padding-block: auto;
+    }
+}

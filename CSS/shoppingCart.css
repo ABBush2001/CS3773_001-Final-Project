@@ -1,0 +1,23 @@
+.menu {  
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+    padding:10px 0px 10px 0px;
+    color:white;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 10px;
+    position:fixed;
+}
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}

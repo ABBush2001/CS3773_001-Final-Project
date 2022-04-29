@@ -1,0 +1,75 @@
+﻿* {
+    box-sizing: border-box;
+    background-color: skyblue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+}
+.menuBar {  
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+    padding:10px 0px 10px 0px;
+    color:white;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 10px;
+    position:fixed;
+}
+.menuBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+}
+.menuBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.menuBar input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 4px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
